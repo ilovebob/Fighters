@@ -25,7 +25,7 @@
 
 int main(int, char const**)
 {
-    sf::RenderWindow window(sf::VideoMode(960, 1600), "give zyc handjob");
+    sf::RenderWindow window(sf::VideoMode(960, 1600), "Fighters");
     
     Music::load();
     GTexture::load();

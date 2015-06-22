@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A02F57A0-AD48-4BA0-9CD6-B0578C38CD35</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fighters</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1111DFAB7847338D7610E63F30C0416C1DEEC67</key>
+		<string>https://github.com/ilovebob/Fighters.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fighters.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1111DFAB7847338D7610E63F30C0416C1DEEC67</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ilovebob/Fighters.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1111DFAB7847338D7610E63F30C0416C1DEEC67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1111DFAB7847338D7610E63F30C0416C1DEEC67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fighters</string>
+		</dict>
+	</array>
+</dict>
+</plist>

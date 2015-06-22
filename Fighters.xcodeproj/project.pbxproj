@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1872B95D1B13E85A00C3FA84 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1872B95B1B13E85A00C3FA84 /* Enemy.cpp */; };
+		1872B9621B14003B00C3FA84 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B95E1B14003B00C3FA84 /* gameover.png */; };
+		1872B9631B14003B00C3FA84 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B95F1B14003B00C3FA84 /* icon.png */; };
+		1872B9641B14003B00C3FA84 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B9601B14003B00C3FA84 /* plane.png */; };
+		1872B9651B14003B00C3FA84 /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B9611B14003B00C3FA84 /* shoot.png */; };
+		188CAD8A1B19ADC400C3E920 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188CAD881B19ADC400C3E920 /* Music.cpp */; };
+		188CAD8F1B19AED900C3E920 /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD8B1B19AED900C3E920 /* backmusic.mp3 */; };
+		188CAD901B19AED900C3E920 /* BGM1.flac in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD8C1B19AED900C3E920 /* BGM1.flac */; };
+		188CAD911B19AED900C3E920 /* game_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD8D1B19AED900C3E920 /* game_music.ogg */; };
+		188CAD921B19AED900C3E920 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD8E1B19AED900C3E920 /* nice_music.ogg */; };
+		188CAD971B19B2B800C3E920 /* BOOM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD961B19B2B800C3E920 /* BOOM.wav */; };
+		188CAD9F1B19B5A100C3E920 /* Bgm.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 188CAD9E1B19B5A100C3E920 /* Bgm.ogg */; };
+		188CADA41B19B67000C3E920 /* Fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 188CADA31B19B67000C3E920 /* Fire.wav */; };
+		18A403821B355C4100A824CB /* youwin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4037E1B355C4100A824CB /* youwin.png */; };
+		18A403831B355C4100A824CB /* speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4037F1B355C4100A824CB /* speed.png */; };
+		18A403841B355C4100A824CB /* shield.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A403801B355C4100A824CB /* shield.png */; };
+		18A403851B355C4100A824CB /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A403811B355C4100A824CB /* life.png */; };
+		18A403891B357A6100A824CB /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A403871B357A6100A824CB /* Level.cpp */; };
+		18A403921B3591B700A824CB /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18A403911B3591B700A824CB /* sansation.ttf */; };
+		18B4FE011B0EFB7D00B34308 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18B4FE001B0EFB7D00B34308 /* ResourcePath.mm */; };
+		18B4FE041B0EFB7D00B34308 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B4FE031B0EFB7D00B34308 /* main.cpp */; };
+		18CDBB741B120C45001B41E0 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBB721B120C45001B41E0 /* Plane.cpp */; };
+		18CDBB7A1B121539001B41E0 /* GTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBB781B121539001B41E0 /* GTexture.cpp */; };
+		18CDBB801B121D5B001B41E0 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBB7E1B121D5B001B41E0 /* Game.cpp */; };
+		18CDBB8F1B122C6C001B41E0 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBB8D1B122C6C001B41E0 /* Bullet.cpp */; };
+		18D6394E1B12EC5E00CA9143 /* Myplane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D6394C1B12EC5E00CA9143 /* Myplane.cpp */; };
+		18F57A081B2EE900006B20C6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F57A071B2EE900006B20C6 /* background.png */; };
+		18F638E31B372EAB0027406A /* Prop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F638E11B372EAB0027406A /* Prop.cpp */; };
+		18F638E61B3731190027406A /* Sky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F638E41B3731190027406A /* Sky.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1872B95B1B13E85A00C3FA84 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		1872B95C1B13E85A00C3FA84 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		1872B95E1B14003B00C3FA84 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		1872B95F1B14003B00C3FA84 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1872B9601B14003B00C3FA84 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		1872B9611B14003B00C3FA84 /* shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoot.png; sourceTree = "<group>"; };
+		188CAD881B19ADC400C3E920 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		188CAD891B19ADC400C3E920 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		188CAD8B1B19AED900C3E920 /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
+		188CAD8C1B19AED900C3E920 /* BGM1.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = BGM1.flac; sourceTree = "<group>"; };
+		188CAD8D1B19AED900C3E920 /* game_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = game_music.ogg; sourceTree = "<group>"; };
+		188CAD8E1B19AED900C3E920 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		188CAD961B19B2B800C3E920 /* BOOM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BOOM.wav; sourceTree = "<group>"; };
+		188CAD9E1B19B5A100C3E920 /* Bgm.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bgm.ogg; sourceTree = "<group>"; };
+		188CADA21B19B5F000C3E920 /* Fire.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire.ogg; sourceTree = "<group>"; };
+		188CADA31B19B67000C3E920 /* Fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fire.wav; sourceTree = "<group>"; };
+		18A4037E1B355C4100A824CB /* youwin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youwin.png; sourceTree = "<group>"; };
+		18A4037F1B355C4100A824CB /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
+		18A403801B355C4100A824CB /* shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield.png; sourceTree = "<group>"; };
+		18A403811B355C4100A824CB /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
+		18A403871B357A6100A824CB /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		18A403881B357A6100A824CB /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		18A4038D1B358C8D00A824CB /* Bfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bfont.ttf; sourceTree = "<group>"; };
+		18A403911B3591B700A824CB /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		18B4FDFB1B0EFB7D00B34308 /* Fighters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fighters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B4FDFF1B0EFB7D00B34308 /* Fighters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fighters-Info.plist"; sourceTree = "<group>"; };
+		18B4FE001B0EFB7D00B34308 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		18B4FE021B0EFB7D00B34308 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		18B4FE031B0EFB7D00B34308 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18CDBB721B120C45001B41E0 /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		18CDBB731B120C45001B41E0 /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		18CDBB781B121539001B41E0 /* GTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTexture.cpp; sourceTree = "<group>"; };
+		18CDBB791B121539001B41E0 /* GTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTexture.h; sourceTree = "<group>"; };
+		18CDBB7E1B121D5B001B41E0 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; wrapsLines = 0; };
+		18CDBB7F1B121D5B001B41E0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		18CDBB8D1B122C6C001B41E0 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		18CDBB8E1B122C6C001B41E0 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		18D6394C1B12EC5E00CA9143 /* Myplane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Myplane.cpp; sourceTree = "<group>"; };
+		18D6394D1B12EC5E00CA9143 /* Myplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myplane.h; sourceTree = "<group>"; };
+		18F57A071B2EE900006B20C6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		18F638E11B372EAB0027406A /* Prop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prop.cpp; sourceTree = "<group>"; };
+		18F638E21B372EAB0027406A /* Prop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prop.h; sourceTree = "<group>"; };
+		18F638E41B3731190027406A /* Sky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sky.cpp; sourceTree = "<group>"; };
+		18F638E51B3731190027406A /* Sky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sky.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B4FDF71B0EFB7D00B34308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B4FDF11B0EFB7D00B34308 = {
+			isa = PBXGroup;
+			children = (
+				18B4FDFD1B0EFB7D00B34308 /* Fighters */,
+				18B4FDFC1B0EFB7D00B34308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B4FDFC1B0EFB7D00B34308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B4FDFB1B0EFB7D00B34308 /* Fighters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B4FDFD1B0EFB7D00B34308 /* Fighters */ = {
+			isa = PBXGroup;
+			children = (
+				18B4FE261B0F109000B34308 /* file */,
+				18B4FE251B0F107E00B34308 /* headfile */,
+				18B4FE001B0EFB7D00B34308 /* ResourcePath.mm */,
+				18B4FE021B0EFB7D00B34308 /* ResourcePath.hpp */,
+				18B4FE031B0EFB7D00B34308 /* main.cpp */,
+				18B4FE051B0EFB7D00B34308 /* Resources */,
+				18B4FDFE1B0EFB7D00B34308 /* Supporting Files */,
+				18CDBB721B120C45001B41E0 /* Plane.cpp */,
+				18CDBB731B120C45001B41E0 /* Plane.h */,
+				18CDBB781B121539001B41E0 /* GTexture.cpp */,
+				18CDBB791B121539001B41E0 /* GTexture.h */,
+				18CDBB7E1B121D5B001B41E0 /* Game.cpp */,
+				18CDBB7F1B121D5B001B41E0 /* Game.h */,
+				18F638E41B3731190027406A /* Sky.cpp */,
+				18F638E51B3731190027406A /* Sky.h */,
+				18CDBB8D1B122C6C001B41E0 /* Bullet.cpp */,
+				18CDBB8E1B122C6C001B41E0 /* Bullet.h */,
+				18D6394C1B12EC5E00CA9143 /* Myplane.cpp */,
+				18D6394D1B12EC5E00CA9143 /* Myplane.h */,
+				1872B95B1B13E85A00C3FA84 /* Enemy.cpp */,
+				1872B95C1B13E85A00C3FA84 /* Enemy.h */,
+				188CAD881B19ADC400C3E920 /* Music.cpp */,
+				188CAD891B19ADC400C3E920 /* Music.h */,
+				18A403871B357A6100A824CB /* Level.cpp */,
+				18A403881B357A6100A824CB /* Level.h */,
+				18F638E11B372EAB0027406A /* Prop.cpp */,
+				18F638E21B372EAB0027406A /* Prop.h */,
+			);
+			path = Fighters;
+			sourceTree = "<group>";
+		};
+		18B4FDFE1B0EFB7D00B34308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B4FDFF1B0EFB7D00B34308 /* Fighters-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B4FE051B0EFB7D00B34308 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18A403911B3591B700A824CB /* sansation.ttf */,
+				188CAD8B1B19AED900C3E920 /* backmusic.mp3 */,
+				188CAD9E1B19B5A100C3E920 /* Bgm.ogg */,
+				188CADA21B19B5F000C3E920 /* Fire.ogg */,
+				188CADA31B19B67000C3E920 /* Fire.wav */,
+				188CAD8C1B19AED900C3E920 /* BGM1.flac */,
+				188CAD961B19B2B800C3E920 /* BOOM.wav */,
+				188CAD8D1B19AED900C3E920 /* game_music.ogg */,
+				188CAD8E1B19AED900C3E920 /* nice_music.ogg */,
+				1872B95E1B14003B00C3FA84 /* gameover.png */,
+				18F57A071B2EE900006B20C6 /* background.png */,
+				18A4037E1B355C4100A824CB /* youwin.png */,
+				18A4037F1B355C4100A824CB /* speed.png */,
+				18A4038D1B358C8D00A824CB /* Bfont.ttf */,
+				18A403801B355C4100A824CB /* shield.png */,
+				18A403811B355C4100A824CB /* life.png */,
+				1872B95F1B14003B00C3FA84 /* icon.png */,
+				1872B9601B14003B00C3FA84 /* plane.png */,
+				1872B9611B14003B00C3FA84 /* shoot.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18B4FE251B0F107E00B34308 /* headfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = headfile;
+			sourceTree = "<group>";
+		};
+		18B4FE261B0F109000B34308 /* file */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = file;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B4FDFA1B0EFB7D00B34308 /* Fighters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B4FE101B0EFB7D00B34308 /* Build configuration list for PBXNativeTarget "Fighters" */;
+			buildPhases = (
+				18B4FDF61B0EFB7D00B34308 /* Sources */,
+				18B4FDF71B0EFB7D00B34308 /* Frameworks */,
+				18B4FDF81B0EFB7D00B34308 /* Resources */,
+				18B4FDF91B0EFB7D00B34308 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fighters;
+			productName = Fighters;
+			productReference = 18B4FDFB1B0EFB7D00B34308 /* Fighters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B4FDF21B0EFB7D00B34308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhutun;
+				TargetAttributes = {
+					18B4FDFA1B0EFB7D00B34308 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 18B4FDF51B0EFB7D00B34308 /* Build configuration list for PBXProject "Fighters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18B4FDF11B0EFB7D00B34308;
+			productRefGroup = 18B4FDFC1B0EFB7D00B34308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B4FDFA1B0EFB7D00B34308 /* Fighters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B4FDF81B0EFB7D00B34308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A403841B355C4100A824CB /* shield.png in Resources */,
+				188CAD921B19AED900C3E920 /* nice_music.ogg in Resources */,
+				18F57A081B2EE900006B20C6 /* background.png in Resources */,
+				1872B9631B14003B00C3FA84 /* icon.png in Resources */,
+				18A403831B355C4100A824CB /* speed.png in Resources */,
+				18A403821B355C4100A824CB /* youwin.png in Resources */,
+				188CAD9F1B19B5A100C3E920 /* Bgm.ogg in Resources */,
+				1872B9651B14003B00C3FA84 /* shoot.png in Resources */,
+				18A403921B3591B700A824CB /* sansation.ttf in Resources */,
+				188CAD901B19AED900C3E920 /* BGM1.flac in Resources */,
+				188CAD971B19B2B800C3E920 /* BOOM.wav in Resources */,
+				1872B9621B14003B00C3FA84 /* gameover.png in Resources */,
+				18A403851B355C4100A824CB /* life.png in Resources */,
+				1872B9641B14003B00C3FA84 /* plane.png in Resources */,
+				188CAD8F1B19AED900C3E920 /* backmusic.mp3 in Resources */,
+				188CADA41B19B67000C3E920 /* Fire.wav in Resources */,
+				188CAD911B19AED900C3E920 /* game_music.ogg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B4FDF91B0EFB7D00B34308 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B4FDF61B0EFB7D00B34308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4FE041B0EFB7D00B34308 /* main.cpp in Sources */,
+				18CDBB8F1B122C6C001B41E0 /* Bullet.cpp in Sources */,
+				1872B95D1B13E85A00C3FA84 /* Enemy.cpp in Sources */,
+				18F638E61B3731190027406A /* Sky.cpp in Sources */,
+				18D6394E1B12EC5E00CA9143 /* Myplane.cpp in Sources */,
+				18B4FE011B0EFB7D00B34308 /* ResourcePath.mm in Sources */,
+				188CAD8A1B19ADC400C3E920 /* Music.cpp in Sources */,
+				18F638E31B372EAB0027406A /* Prop.cpp in Sources */,
+				18A403891B357A6100A824CB /* Level.cpp in Sources */,
+				18CDBB7A1B121539001B41E0 /* GTexture.cpp in Sources */,
+				18CDBB741B120C45001B41E0 /* Plane.cpp in Sources */,
+				18CDBB801B121D5B001B41E0 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B4FE0E1B0EFB7D00B34308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		18B4FE0F1B0EFB7D00B34308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		18B4FE111B0EFB7D00B34308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fighters/Fighters-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B4FE121B0EFB7D00B34308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fighters/Fighters-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B4FDF51B0EFB7D00B34308 /* Build configuration list for PBXProject "Fighters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4FE0E1B0EFB7D00B34308 /* Debug */,
+				18B4FE0F1B0EFB7D00B34308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B4FE101B0EFB7D00B34308 /* Build configuration list for PBXNativeTarget "Fighters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4FE111B0EFB7D00B34308 /* Debug */,
+				18B4FE121B0EFB7D00B34308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B4FDF21B0EFB7D00B34308 /* Project object */;
+}

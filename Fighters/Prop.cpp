@@ -41,6 +41,7 @@ void Prop::propeffect(Sky *sky){
         sky->myplane->attack(5);
     }else if(this->propsTexture==&GTexture::PROP_SHIELD){
         sky->myplane->setshield(true);
+        sky->myplane->setTexture(GTexture::SHIELDPLANE);
     }
 }
 

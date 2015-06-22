@@ -13,6 +13,7 @@
 
 Myplane::Myplane(Sky* mySky):Plane(mySky)
 {
+
     this->setTexture(this->texture);
     this->setPosition(450,1450);
 }

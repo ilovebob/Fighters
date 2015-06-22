@@ -196,6 +196,7 @@ bool Sky::isBeat(){
         if (a==500) {
             a=0;
             this->myplane->shield=false;
+            this->myplane->setTexture(GTexture::MYPLANE_NORMAL);
         }else {
             a++;
         }

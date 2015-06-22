@@ -46,6 +46,7 @@ public:
     static sf::Texture WIN;
     
     static sf::Texture PROP_SHIELD;
+    static sf::Texture SHIELDPLANE;
     static sf::Texture PROP_LIFE;
     static sf::Texture PROP_ATTACK;
     

@@ -18,7 +18,7 @@ using namespace std;
 Enemy::Enemy(Sky* mySky):Plane(mySky)
 {
     uniform_int_distribution<unsigned> u(0,700);
-    uniform_int_distribution<unsigned> y(0,10);
+    uniform_int_distribution<unsigned> y(0,0);
     std::default_random_engine random_engine;
     if (y(Game::random_engine)==0) {
         this->setTexture(this->Bossnormal);

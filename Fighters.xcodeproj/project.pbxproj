@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180657A91B37F23200BBA719 /* shieldplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 180657A81B37F23200BBA719 /* shieldplane.png */; };
 		1872B95D1B13E85A00C3FA84 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1872B95B1B13E85A00C3FA84 /* Enemy.cpp */; };
 		1872B9621B14003B00C3FA84 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B95E1B14003B00C3FA84 /* gameover.png */; };
 		1872B9631B14003B00C3FA84 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1872B95F1B14003B00C3FA84 /* icon.png */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180657A81B37F23200BBA719 /* shieldplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shieldplane.png; sourceTree = "<group>"; };
 		1872B95B1B13E85A00C3FA84 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
 		1872B95C1B13E85A00C3FA84 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		1872B95E1B14003B00C3FA84 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				1872B95F1B14003B00C3FA84 /* icon.png */,
 				1872B9601B14003B00C3FA84 /* plane.png */,
 				1872B9611B14003B00C3FA84 /* shoot.png */,
+				180657A81B37F23200BBA719 /* shieldplane.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				18A403851B355C4100A824CB /* life.png in Resources */,
 				1872B9641B14003B00C3FA84 /* plane.png in Resources */,
 				188CADA41B19B67000C3E920 /* Fire.wav in Resources */,
+				180657A91B37F23200BBA719 /* shieldplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

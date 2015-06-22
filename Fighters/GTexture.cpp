@@ -38,6 +38,7 @@ sf::Texture GTexture::GAMEOVER;
 sf::Texture GTexture::WIN;
 
 sf::Texture GTexture::PROP_SHIELD;
+sf::Texture GTexture::SHIELDPLANE;
 sf::Texture GTexture::PROP_LIFE;
 sf::Texture GTexture::PROP_ATTACK;
 
@@ -54,7 +55,7 @@ GTexture::~GTexture()
 }
 
 void GTexture::load(){
-    MYPLANE_NORMAL.loadFromFile(resourcePath()+"shoot.png",sf::IntRect(0,100,100,125));
+    MYPLANE_NORMAL.loadFromFile(resourcePath()+"shoot.png",sf::IntRect(0,100,144,143));
     MYPLANE_BOOM1.loadFromFile(resourcePath()+"shoot.png",sf::IntRect(165,235,100,125));
     MYPLANE_BOOM2.loadFromFile(resourcePath()+"shoot.png",sf::IntRect(330,495,100,125));
     MYPLANE_BOOM3.loadFromFile(resourcePath()+"shoot.png",sf::IntRect(330,625,100,125));
@@ -79,6 +80,7 @@ void GTexture::load(){
     WIN.loadFromFile(resourcePath()+"youwin.png");
     
     PROP_SHIELD.loadFromFile(resourcePath()+"shield.png");
+    SHIELDPLANE.loadFromFile(resourcePath()+"shieldplane.png");
     PROP_LIFE.loadFromFile(resourcePath()+"life.png");
     PROP_ATTACK.loadFromFile(resourcePath()+"speed.png");
     
